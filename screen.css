@@ -11,3 +11,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /*
   Modular Scale: https://www.modularscale.com/?18&px&1.333
   */
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.125em; /* 18 / 16 = 1.25 */
+  line-height: 1.5em; /* 24 / 16 = 1.5 */
+  background: #12263A;
+  color: #EAEFD3;
+  padding: 1.5em;
+}
