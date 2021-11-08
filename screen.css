@@ -20,3 +20,25 @@ html {
   color: #EAEFD3;
   padding: 1.5em;
 }
+
+h1 {
+  font-size: 2.665em; /* 27 / 16 = 1.6875 */
+  padding-bottom: 0.844em; /* 9 / 16 = 0.5625 */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.999em; /* 27 / 16 = 1.6875 */
+  padding-bottom: 0.844em; /* 9 / 16 = 0.5625 */
+  padding-top: 0.844em;
+  font-weight: bold;
+  background-color: #1282A2;
+  padding-left: 0.633em;
+}
+
+h3 {
+  font-size: 1.5em; /* 27 / 16 = 1.6875 */
+  padding-bottom: 0.844em; /* 9 / 16 = 0.5625 */
+  padding-top: 0.844em;
+  font-weight: bold;
+}
