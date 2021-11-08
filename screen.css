@@ -42,3 +42,24 @@ h3 {
   padding-top: 0.844em;
   font-weight: bold;
 }
+
+li,
+ol,
+ul {
+  padding: 0.28125em; /* 4.5 / 16 = 0.28125 */
+  list-style-type: circle;
+}
+
+a {
+  color: #EAEFD3;
+  text-decoration: underline; /* This works for all browsers */
+  text-decoration-color: #AAA; /* Additional intrinsic styles */
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
