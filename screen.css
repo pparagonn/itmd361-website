@@ -63,3 +63,16 @@ img {
   height: auto;
   text-align: center;
 }
+
+.header {
+  text-align: center;
+  text-decoration: underline;
+  padding: 0.5625em
+}
+
+#site-nav ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: #1282A2;
+}
