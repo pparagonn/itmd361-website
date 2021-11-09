@@ -47,7 +47,15 @@ li,
 ol,
 ul {
   padding: 0.28125em; /* 4.5 / 16 = 0.28125 */
+
+}
+
+.resume-education-items li,
+.resume-skill-items li,
+.resume-description li,
+.fsp-items li{
   list-style-type: circle;
+  margin-left: 1.5em;
 }
 
 a {
@@ -75,4 +83,12 @@ img {
   flex-flow: row wrap;
   justify-content: center;
   color: #1282A2;
+}
+
+@media screen and(min-width: 850px) {
+  img {
+    float: left;
+    max-width: 50%;
+    height: auto;
+  }
 }
