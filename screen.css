@@ -85,6 +85,14 @@ img {
   color: #1282A2;
 }
 
+footer {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background-color: #1282A2;
+  font-size: 0.5625em;
+  text-align: center;
+}
+
 @media screen and(min-width: 850px) {
   img {
     float: left;
