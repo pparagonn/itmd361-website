@@ -15,38 +15,38 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-family: Helvetica, sans-serif;
   font-size: 1.125em; /* 18 / 16 = 1.25 */
-  line-height: 1.5em; /* 24 / 16 = 1.5 */
+  line-height: 1.5em; /* 23.994 / 16 = 1.5 */
   background: #12263A;
   color: #EAEFD3;
-  padding: 1.5em;
+  padding: 1.5em; /* 23.994 / 16 = 1.5 */
 }
 
 h1 {
-  font-size: 2.665em; /* 27 / 16 = 1.6875 */
-  padding-bottom: 0.844em; /* 9 / 16 = 0.5625 */
+  font-size: 2.665em; /* 42.635 / 16 = 2.665 */
+  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
   font-weight: bold;
 }
 
 h2 {
-  font-size: 1.999em; /* 27 / 16 = 1.6875 */
-  padding-bottom: 0.844em; /* 9 / 16 = 0.5625 */
-  padding-top: 0.844em;
+  font-size: 1.999em; /* 31.984 / 16 = 1.999 */
+  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
+  padding-top: 0.844em; /* 13.503 / 16 = 0.844 */
   font-weight: bold;
   background-color: #1282A2;
-  padding-left: 0.633em;
+  padding-left: 0.633em; /* 10.13 / 16 = 0.633 */
 }
 
 h3 {
-  font-size: 1.5em; /* 27 / 16 = 1.6875 */
-  padding-bottom: 0.844em; /* 9 / 16 = 0.5625 */
-  padding-top: 0.844em;
+  font-size: 1.5em; /* 23.994 / 16 = 1.5 */
+  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
+  padding-top: 0.844em; /* 13.503 / 16 = 0.844 */
   font-weight: bold;
 }
 
 li,
 ol,
 ul {
-  padding: 0.28125em; /* 4.5 / 16 = 0.28125 */
+  padding: 0.267em; /* 4.277 / 16 = 0.267 */
 
 }
 
@@ -55,15 +55,13 @@ ul {
 .resume-description li,
 .fsp-items li{
   list-style-type: circle;
-  margin-left: 1.5em;
+  margin-left: 1.5em; /* 23.994 / 16 = 1.5 */
 }
 
 a {
   color: #EAEFD3;
-  text-decoration: underline; /* This works for all browsers */
-  text-decoration-color: #AAA; /* Additional intrinsic styles */
+  text-decoration: underline;
   text-decoration-style: solid;
-  text-decoration-thickness: 1px;
 }
 
 img {
@@ -75,7 +73,7 @@ img {
 .header {
   text-align: center;
   text-decoration: underline;
-  padding: 0.5625em
+  padding: 0.633em; /* 10.13 / 16 = 0.633 */
 }
 
 #site-nav ul{
@@ -86,17 +84,18 @@ img {
 }
 
 footer {
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
+  padding-top: 0.844em; /* 13.503 / 16 = 0.844 */
   background-color: #1282A2;
-  font-size: 0.5625em;
+  font-size: 0.633em; /* 10.13 / 16 = 0.633 */
   text-align: center;
 }
 
 @media screen and(min-width: 850px) {
-  img {
+  #headshot img{
     float: left;
     max-width: 50%;
     height: auto;
+    border-radius: 50%;
   }
 }
