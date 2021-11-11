@@ -68,6 +68,7 @@ img {
   max-width: 100%;
   height: auto;
   text-align: center;
+  display: block;
 }
 
 .header {
@@ -91,11 +92,10 @@ footer {
   text-align: center;
 }
 
-@media screen and(min-width: 850px) {
-  #headshot img{
-    float: left;
+@media screen and (min-width: 53.125em) {
+  img {
     max-width: 50%;
-    height: auto;
-    border-radius: 50%;
+    margin: 0 auto;
+    max-height: 50%;
   }
 }
