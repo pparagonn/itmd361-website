@@ -23,14 +23,13 @@ html {
 
 h1 {
   font-size: 2.665em; /* 42.635 / 16 = 2.665 */
-  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
+  line-height: 1.5em; /* 31.984 / 16 = 1.999 */
   font-weight: bold;
 }
 
 h2 {
   font-size: 1.999em; /* 31.984 / 16 = 1.999 */
-  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
-  padding-top: 0.844em; /* 13.503 / 16 = 0.844 */
+  line-height: 1.999em; /* 31.984 / 16 = 1.999 */
   font-weight: bold;
   background-color: #1282A2;
   padding-left: 0.633em; /* 10.13 / 16 = 0.633 */
@@ -97,5 +96,6 @@ footer {
     max-width: 50%;
     margin: 0 auto;
     max-height: 50%;
+    float: left;
   }
 }
