@@ -70,6 +70,10 @@ figcaption {
   text-align: center;
 }
 
+/* Selective Styles */
+
+
+
 /* Layout Rules */
 main {
   padding-left: 10%;
@@ -145,4 +149,34 @@ nav a {
     padding-left: 20%;
     padding-right: 20%;
   }
+
+  #resume-experience-information {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-gap: 0.633em; /* 10.13 / 16 = 0.633 */
+    gap: 0.633em; /* 10.13 / 16 = 0.633 */
+  }
+  #resume-experience-information h2 {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  #resume-experience-aldi {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #resume-experience-dkm {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  #resume-experience-dh {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  #resume-experience-district {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
 }
