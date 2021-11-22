@@ -129,6 +129,12 @@ nav a {
     grid-gap: 0.633em; /* 10.13 / 16 = 0.633 */
     gap: 0.633em; /* 10.13 / 16 = 0.633 */
   }
+
+  .about-me-section h2 {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
   #intro-paragraph {
     grid-column: 2;
     grid-row: 2;
@@ -154,8 +160,8 @@ nav a {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto;
-    grid-gap: 0.633em; /* 10.13 / 16 = 0.633 */
-    gap: 0.633em; /* 10.13 / 16 = 0.633 */
+    grid-gap: 1.125em; /* 18 / 16 = 1.125 */
+    gap: 1.125em; /* 18 / 16 = 1.125 */
   }
   #resume-experience-information h2 {
     grid-row: 1;
@@ -177,6 +183,59 @@ nav a {
   #resume-experience-district {
     grid-column: 2;
     grid-row: 3;
+  }
+
+  #resume-education-information {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-gap: 1.125em; /* 18 / 16 = 1.125 */
+    gap: 1.125em; /* 18 / 16 = 1.125 */
+  }
+
+  #resume-education-information h2 {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  #resume-education-iit {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #resume-education-mvcc {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  #resume-skill-information {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-gap: 1.125em; /* 18 / 16 = 1.125 */
+    gap: 1.125em; /* 18 / 16 = 1.125 */
+  }
+
+  #resume-skill-information h2 {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  #resume-skill-technical {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  #resume-skill-lang {
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  #resume-skill-cert {
+    grid-row: 2;
+    grid-column: 3;
   }
 
 }
