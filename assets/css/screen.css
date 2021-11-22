@@ -121,7 +121,7 @@ nav a {
 
 /* Media Queries */
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 34.375em) {
   .about-me-section {
     display: grid;
     grid-template-rows: auto;
@@ -145,12 +145,12 @@ nav a {
     grid-row: 2;
   }
   figcaption {
-    padding-top: 0.633em;
-    padding-bottom: 0.633em;
+    padding-top: 0.633em; /* 10.13 / 16 = 0.633 */
+    padding-bottom: 0.633em; /* 10.13 / 16 = 0.633 */
   }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 67.5em) {
   main {
     padding-left: 20%;
     padding-right: 20%;
