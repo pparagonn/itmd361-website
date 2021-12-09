@@ -78,7 +78,7 @@ main {
 .resume-education-items li,
 .resume-skill-items li,
 .resume-description li,
-.fsp-items li {
+.cbp-items li {
   list-style-type: circle;
   margin-left: 1.5em; /* 23.994 / 16 = 1.5 */
 }
