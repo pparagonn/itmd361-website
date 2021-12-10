@@ -57,12 +57,6 @@ ul {
   padding: 0.267em; /* 4.277 / 16 = 0.267 */
 }
 
-figcaption {
-  padding-top: 0.633em; /* 10.13 / 16 = 0.633 */
-  padding-bottom: 0.633em; /* 10.13 / 16 = 0.633 */
-  line-height: 1.125em; /* 18 / 16 = 1.25 */
-}
-
 /* Image Styles */
 img {
   max-width: 100%;
@@ -72,8 +66,11 @@ img {
 }
 
 figcaption {
-  font-size: 0.633em; /* 10.13 / 16 = 0.633 */
   text-align: center;
+  font-size: 0.633em; /* 10.13 / 16 = 0.633 */
+  padding-top: 0.633em; /* 10.13 / 16 = 0.633 */
+  padding-bottom: 0.633em; /* 10.13 / 16 = 0.633 */
+  line-height: 1.125em; /* 18 / 16 = 1.25 */
 }
 
 /* Layout Rules */
@@ -121,7 +118,7 @@ a {
 }
 
 #intro-paragraph {
-    margin-top: 0.475em; /* 7.599 / 16 = 0.475em */
+  margin-top: 0.475em; /* 7.599 / 16 = 0.475em */
 }
 
 /* Navigation Style */
