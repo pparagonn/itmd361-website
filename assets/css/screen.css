@@ -111,6 +111,11 @@ a {
 
 #headshot img {
   border-radius: 0.633em; /* 10.13 / 16 = 0.633 */
+  margin-top: 0.475em; /* 7.599 / 16 = 0.475em */
+}
+
+#intro-paragraph {
+    margin-top: 0.475em; /* 7.599 / 16 = 0.475em */
 }
 
 /* Navigation Style */
