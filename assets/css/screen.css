@@ -57,6 +57,12 @@ ul {
   padding: 0.267em; /* 4.277 / 16 = 0.267 */
 }
 
+figcaption {
+  padding-top: 0.633em; /* 10.13 / 16 = 0.633 */
+  padding-bottom: 0.633em; /* 10.13 / 16 = 0.633 */
+  line-height: 1.125em; /* 18 / 16 = 1.25 */
+}
+
 /* Image Styles */
 img {
   max-width: 100%;
@@ -139,11 +145,6 @@ nav a {
 
 /* Media Queries */
 @media screen and (min-width: 34.375em) {
-  /* Content Style */
-  figcaption {
-    padding-top: 0.633em; /* 10.13 / 16 = 0.633 */
-    padding-bottom: 0.633em; /* 10.13 / 16 = 0.633 */
-  }
 
   /* Home Page */
   .about-me-section {
