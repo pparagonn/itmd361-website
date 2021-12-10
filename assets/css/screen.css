@@ -83,6 +83,19 @@ li.cbp-items-description {
   margin-left: 1.5em; /* 23.994 / 16 = 1.5 */
 }
 
+li.cbp-items {
+  background-color: #1282A2;
+  border-radius: 0.633em; /* 10.13 / 16 = 0.633 */
+  margin-bottom: 1.5em; /* 23.994 / 16 = 1.5 */
+  margin-top: 1.5em; /* 23.994 / 16 = 1.5 */
+  padding-left: 1.5em; /* 23.994 / 16 = 1.5 */
+  padding-right: 1.5em; /* 23.994 / 16 = 1.5 */
+}
+
+.cbp-image img {
+  border-radius: 0.633em; /* 10.13 / 16 = 0.633 */
+}
+
 a {
   color: #EAEFD3;
   text-decoration: underline;
@@ -115,6 +128,13 @@ nav a {
 
 /* Media Queries */
 @media screen and (min-width: 34.375em) {
+  /* Content Style */
+  figcaption {
+    padding-top: 0.633em; /* 10.13 / 16 = 0.633 */
+    padding-bottom: 0.633em; /* 10.13 / 16 = 0.633 */
+  }
+
+  /* Home Page */
   .about-me-section {
     display: grid;
     grid-template-rows: auto;
@@ -137,18 +157,17 @@ nav a {
     grid-column: 1;
     grid-row: 2;
   }
-  figcaption {
-    padding-top: 0.633em; /* 10.13 / 16 = 0.633 */
-    padding-bottom: 0.633em; /* 10.13 / 16 = 0.633 */
-  }
+
 }
 
 @media screen and (min-width: 67.5em) {
+  /* Content Style */
   main {
     padding-left: 20%;
     padding-right: 20%;
   }
 
+  /* Resume Page */
   #resume-experience-information {
     display: grid;
     grid-template-rows: auto;
