@@ -86,8 +86,8 @@ li.cbp-items-description {
 li.cbp-items {
   background-color: #1282A2;
   border-radius: 0.633em; /* 10.13 / 16 = 0.633 */
-  margin-bottom: 1.5em; /* 23.994 / 16 = 1.5 */
-  margin-top: 1.5em; /* 23.994 / 16 = 1.5 */
+  margin-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
+  margin-top: 0.844em; /* 13.503 / 16 = 0.844 */
   padding-left: 1.5em; /* 23.994 / 16 = 1.5 */
   padding-right: 1.5em; /* 23.994 / 16 = 1.5 */
 }
@@ -156,6 +156,15 @@ nav a {
   #headshot {
     grid-column: 1;
     grid-row: 2;
+  }
+
+  /* CBP Page */
+  .cbp-parent ol {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.633em; /* 10.13 / 16 = 0.633 */
+    gap: 0.633em; /* 10.13 / 16 = 0.633 */
   }
 
 }
@@ -248,6 +257,15 @@ nav a {
   #resume-skill-cert {
     grid-row: 2;
     grid-column: 3;
+  }
+
+  /* CBP Page */
+  .cbp-parent ol {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.633em; /* 10.13 / 16 = 0.633 */
+    gap: 0.633em; /* 10.13 / 16 = 0.633 */
   }
 
 }
