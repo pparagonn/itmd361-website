@@ -121,6 +121,10 @@ a {
   margin-top: 0.475em; /* 7.599 / 16 = 0.475em */
 }
 
+#linkedin-badge {
+  padding: 0.633em; /* 10.13 / 16 = 0.633 */
+}
+
 /* Navigation Style */
 #site-nav ul {
   display: flex;
@@ -186,6 +190,21 @@ nav a {
   }
 
   /* Resume Page */
+  #resume-contact-information-section {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-gap: 1.125em; /* 18 / 16 = 1.125 */
+    gap: 1.125em; /* 18 / 16 = 1.125 */
+  }
+  #resume-contact-information-items {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  #linkedin-badge {
+    grid-row: 1;
+    grid-column: 2;
+  }
   #resume-experience-information {
     display: grid;
     grid-template-rows: auto;
